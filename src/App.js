@@ -93,6 +93,15 @@ function App() {
               </div>
               <div className="weather">{weather.weather[0].main}</div>
             </div>
+            <div className="all-contents">
+              Pressure: {Math.round(weather.main.pressure)}Pa
+              <br />
+              Humidity: {Math.round(weather.main.humidity)}%
+              <br />
+              Wind: {Math.round(weather.wind.speed)} km/h
+              <br />
+              Visibility: {Math.round(weather.visibility) / 1000} km
+            </div>
           </div>
         ) : (
           ""
