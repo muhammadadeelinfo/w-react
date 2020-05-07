@@ -84,12 +84,12 @@ function App() {
             <div className="weather-box">
               <div className="temp">{Math.round(weather.main.temp)}°c</div>
               <div className="temp-max-min">
-                Max-{Math.round(weather.main.temp_max)}° Min-
+                Max: {Math.round(weather.main.temp_max)}° Min:{" "}
                 {Math.round(weather.main.temp_min)}°
               </div>
               <br />
               <div className="temp-max-min">
-                Feels like-{Math.round(weather.main.feels_like)}°
+                Feels like: {Math.round(weather.main.feels_like)}°
               </div>
               <div className="weather">{weather.weather[0].main}</div>
             </div>

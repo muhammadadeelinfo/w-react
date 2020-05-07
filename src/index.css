@@ -103,7 +103,7 @@ main {
   position: relative;
   display: inline-block;
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   padding: 0;
 
   color: rgb(255, 255, 255);
@@ -114,6 +114,7 @@ main {
 }
 
 .weather-box .weather {
+  margin-top: 30px;
   color: #fff;
   font-size: 48px;
   font-weight: 700;
